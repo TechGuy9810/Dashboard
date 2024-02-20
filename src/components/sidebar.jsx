@@ -15,7 +15,7 @@ export default function Sidebar(){
             <h3 className='sidebarTitle'>Dashboard</h3>
             <ul className='sidebarList'>
                 <li className="sidebarListItem">
-                <NavLink to='/' className="Linkis">
+                <NavLink to='/Dashboard' className="Linkis">
                     <FontAwesomeIcon icon={faHome} className='sidebaricon' />
                     Home</NavLink>
                 </li>
