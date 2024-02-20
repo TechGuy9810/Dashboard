@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Dashboard/static/css/main.a79e7568.css",
+    "main.js": "/Dashboard/static/js/main.3075297f.js",
+    "static/media/admin1.png": "/Dashboard/static/media/admin1.7abb5d5e6fc1060fe347.png",
+    "static/media/apple.jpg": "/Dashboard/static/media/apple.c5875a4e76cb28f53a35.jpg",
+    "static/media/keyboard.jpg": "/Dashboard/static/media/keyboard.b85ffd7da4976ab69fb6.jpg",
+    "static/media/sapines.jpg": "/Dashboard/static/media/sapines.d5b607f460499e89759e.jpg",
+    "index.html": "/Dashboard/index.html",
+    "main.a79e7568.css.map": "/Dashboard/static/css/main.a79e7568.css.map",
+    "main.3075297f.js.map": "/Dashboard/static/js/main.3075297f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a79e7568.css",
+    "static/js/main.3075297f.js"
+  ]
+}
