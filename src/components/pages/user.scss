@@ -1,0 +1,75 @@
+.user{
+    display: flex;
+    width: 100%;
+    
+    .userContainer{
+        flex:5;
+        .top{
+            padding: 2.2vh;
+            display: flex;
+            gap: 2vh;
+            .left{
+                flex: 1;
+                padding: 2vh;
+                position: relative;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                border-radius: 10px;
+                .edit{
+                    position: absolute;
+                    top: 1vh;
+                    right: 1vh;
+                    padding: 1vh;
+                    font-size: 1.7vh;
+                    cursor: pointer;
+                    color: black;
+                    background-color: rgb(196, 196, 196);
+                    border-radius: 5px;
+                }
+                .item{
+                    display: flex;
+                    gap: 2vh;
+                .itemImg{
+                    width: 10vh;
+                    height: 10vh;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .itemTitle{
+                    margin-bottom: 1.2vh;   
+                }
+                }
+                .details{
+                    .detailItem{
+                        margin-bottom: 1.2vh;
+                        font-size: 2vh;
+                        color: gray;
+                        .itemKey{
+                            font-weight: bold;
+                            color: gray;
+                            margin-right: 0.7vh;
+                        }
+                        .itemValue{
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+            }
+        }
+        .bottom{
+            .Transactions{
+                color: rgb(108, 108, 108);
+                font-size: 3vh;
+            }
+        }
+    }
+    .title{
+        
+        font-size: 1.6vh;
+        color: lightgray;
+        margin-bottom: 2.2vh;
+        
+    }
+}

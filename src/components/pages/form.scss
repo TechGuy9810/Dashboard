@@ -1,0 +1,43 @@
+/* MyForm.scss */
+.formMain{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    height: 70vh;
+    width: 50vh;
+    padding: 5vh;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 1.2vh;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    button {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 1vh 3.5vh;
+      border: 1px solid rgb(68, 68, 68);
+      border-radius: 5px;
+      font-size: 2vh;
+      font-weight: 600;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #000000;
+        color: white;
+      }
+    }
+  }
+  

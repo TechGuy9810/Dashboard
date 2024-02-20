@@ -1,0 +1,16 @@
+.MainSalesContainer{
+display: flex;
+width: 100%;
+.SalesContainer{
+    flex: 5;
+    padding: 2.5vh;
+    display: flex;
+    .SalesContainerdiv{
+       height: 100%;
+       width: 100%;
+       .salesChart{
+        display: flex;
+       }
+    }
+}
+}

@@ -1,0 +1,21 @@
+.MainTransactionContainer{
+    display: flex;
+    height: 100vh;
+}
+.TransactionContainer{
+    padding-top: 2vh;
+        flex: 5;
+        .SalesContainer{
+            display: flex;
+            padding: 0.7vh 2.8vh;
+            gap: 2.5vh;
+            .barchart{
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                // height: 55%;
+                // width: 55%;
+                border-radius: 10px;
+                padding: 2.8vh 2.8vh;
+                color: gray;
+        }
+        }
+}

@@ -1,0 +1,42 @@
+.mainchartContainer{
+display: flex;
+width: 100%;
+.chartContainer{
+    flex: 5;
+    padding: 2.5vh;
+    display: flex;
+    .chartContainerDiv{
+        height: 100%;
+        width: 100%;
+        display: block;
+         .top{
+            width: 100%;
+            display: flex;
+            gap: 2vh;
+            width: 100%;
+            margin-bottom: 2.5vh;
+            .barchart{
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                height: 55%;
+                width: 55%;
+                border-radius: 10px;
+                padding: 0.7vh 2.8vh;
+                color: gray;
+        }
+        .PieChart{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            .headingPieChart{
+               color: gray;
+               font-weight: 500;
+               font-size: 2.5vh;
+            }
+           height: 55%;
+           width: 45%;
+           border-radius: 10px;
+           color: gray;
+           padding: 1vh 2.8vh;
+       }
+         }
+}
+}
+}

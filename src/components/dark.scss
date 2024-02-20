@@ -1,0 +1,109 @@
+.app.dark{
+    background-color: rgb(36, 36, 36);
+    color: #dbdbdb;
+    .chartGrid{
+        stroke: #dbdbdb;
+    }
+    .table{
+        background-color: #1111;
+        .tableCell{
+            color: #dbdbdb;
+        }
+        box-shadow: none;
+        border: 1px solid white;
+    }
+    .sidebar{
+        background-color: rgb(36, 36, 36);
+        .sidebarWrap{
+            color: #dbdbdb;
+        }
+        .Linkis{
+            color: #dbdbdb;
+        }
+        .Linkis.active, .Linkis:hover{
+            background-color: #dbdbdb;
+            color: black;
+        }
+    }
+    .title{
+        color: #dbdbdb;
+    }
+    .link{
+        border-bottom: 1px solid #dbdbdb;
+        color: #dbdbdb;
+    }
+    .barchart{
+        background-color: #dbdbdb;
+        color: white;
+    }
+.datatable{
+    .datagrid{
+        color: white;
+        border: none;
+        .deleteButton, .cellWithStatus{
+            color: white;
+            border: none;
+        }
+        .viewButton a{
+            color: rgb(184, 184, 184);
+        }
+          
+    .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+    
+        &.active {
+          background-color: rgba(11, 224, 11, 0.05);
+          color: green;
+        }
+        &.pending {
+          background-color: rgba(255, 217, 0, 0.05);
+          color: goldenrod;
+        }
+        &.passive {
+          background-color: rgba(255, 0, 0, 0.05);
+          color: crimson;
+        }
+      }
+    }
+}
+input{
+    background-color: transparent;
+}
+.PieChart{
+    background-color: #dbdbdb;
+    color: #dbdbdb;
+  }
+  .featured{
+    .CircularProgressbar{
+        stroke: white;
+        fill: blue;
+    }
+    box-shadow: none;
+    border: 1px solid white;
+  }
+  .admin{
+    .adminInfoContainer{
+        border: 1px solid white;
+    }
+    .edit{
+          border: 1px solid white;
+        color: White;
+        background-color: black;
+    }
+  }
+  .ProductDatatable{
+            .link{
+                color: white;
+                border-color: white;
+            }
+  }
+  .widget{
+    // box-shadow: none;
+    border: 3px solid white;
+  }
+  .chart{
+    box-shadow: none;
+    border: 1px solid white;
+  }
+}

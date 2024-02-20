@@ -1,0 +1,74 @@
+.featured{
+    flex: 2;
+    padding: 1vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #818289;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.title{
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+.bottom{
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4vh;
+    
+    .featuredChart{
+        width: 12vh;
+        height: 12vh;
+        
+    }
+    .title{
+        font-weight: 500;
+        color: #818289;
+    }
+    .amount{
+        font-size: 3.6vh;
+    }
+    .desc{
+        font-weight: 300;
+        font-size: 1.4vh;
+        color: gray;
+    }
+    .summary{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .item{
+            text-align: center;
+        }
+        .itemTitle{
+            font-size: 2vh;
+            color: gray;
+        }
+        .itemResult{
+            display: flex;
+            align-items: center;
+            margin-top: 1.2vh;
+            &.positive{
+                color: green;
+            }
+            .resultAmount{
+                font-size: 2vh;
+            }
+            &.negative{
+                color: red;
+            }
+            
+        }
+    }
+}
